@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-xychannel" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>ChannelPlugin</name>
+    <js-module name="ChannelPlugin" src="www/ChannelPlugin.js">
+        <clobbers target="cordova.plugins.ChannelPlugin" />
+    </js-module>
+
+     <platform name="android">    
+        <source-file src="src/android/ChannelPlugin.java" target-dir="src/com/xy/channel"/>    
+        <config-file target="res/xml/config.xml" parent="/*">    
+            <feature name="ChannelPlugin">    
+                <param name="android-package" value="com.xy.channel.ChannelPlugin"/>    
+            </feature>    
+        </config-file>    
+    </platform>
+
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="ChannelPlugin">
+                <param name="ios-package" value="ChannelPlugin"/>
+            </feature>
+        </config-file>
+        <header-file src="src/ios/ChannelPlugin.h" />
+        <source-file src="src/ios/ChannelPlugin.m" />
+    </platform>    
+</plugin>
