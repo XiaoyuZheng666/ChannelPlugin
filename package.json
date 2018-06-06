@@ -1,6 +1,6 @@
 {
-  "name": "ChannelPlugin",
-  "version": "1.0.1",
+  "name": "cordova-plugin-xychannel",
+  "version": "1.0.3",
   "description": "a plugin that can get channelid",
   "cordova": {
     "id": "cordova-plugin-xychannel",
