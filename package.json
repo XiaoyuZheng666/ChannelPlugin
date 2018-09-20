@@ -1,7 +1,35 @@
 {
-  "name": "cordova-plugin-xychannel",
-  "version": "1.0.3",
-  "description": "a plugin that can get channelid",
+  "_from": "cordova-plugin-xychannel@^1.0.5",
+  "_id": "cordova-plugin-xychannel@1.0.5",
+  "_inBundle": false,
+  "_integrity": "sha512-wJt3iKFKK3N8Eobz6yilsxInmya1yIciO8f5fzdNN52o4KElK0MWBt99/Pga5mOw5wLw+oDEpDn81XR/q+mFVA==",
+  "_location": "/cordova-plugin-xychannel",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "cordova-plugin-xychannel@^1.0.5",
+    "name": "cordova-plugin-xychannel",
+    "escapedName": "cordova-plugin-xychannel",
+    "rawSpec": "^1.0.5",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.5"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-xychannel/-/cordova-plugin-xychannel-1.0.5.tgz",
+  "_shasum": "4be5b8da68de6825ae03734d3f1d6f21ab0d03c0",
+  "_spec": "cordova-plugin-xychannel@^1.0.5",
+  "_where": "/Users/mac005/silverwalletapp",
+  "author": {
+    "name": "xiaoyuzheng"
+  },
+  "bugs": {
+    "url": "https://github.com/XiaoyuZheng666/ChannelPlugin/issues"
+  },
+  "bundleDependencies": false,
   "cordova": {
     "id": "cordova-plugin-xychannel",
     "platforms": [
@@ -9,21 +37,21 @@
       "ios"
     ]
   },
+  "deprecated": false,
+  "description": "a plugin that can get channelid",
+  "homepage": "https://github.com/XiaoyuZheng666/ChannelPlugin#readme",
+  "keywords": [
+    "channelid"
+  ],
+  "license": "MIT",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "name": "cordova-plugin-xychannel",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/XiaoyuZheng666/ChannelPlugin.git"
   },
-  "keywords": [
-    "channelid"
-  ],
-  "author": "xiaoyuzheng",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/XiaoyuZheng666/ChannelPlugin/issues"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/XiaoyuZheng666/ChannelPlugin#readme"
+  "version": "1.0.5"
 }

@@ -48,7 +48,8 @@ public static String getAppMetaData(Context context, String key) {
             ApplicationInfo applicationInfo = packageManager.getApplicationInfo(context.getPackageName(), PackageManager.GET_META_DATA);
             if (applicationInfo != null) {
                 if (applicationInfo.metaData != null) {
-                    channelNumber = applicationInfo.metaData.getString(key);
+                      channelNumber = applicationInfo.metaData.getString(key);
+                      channelNumber=channelNumber.substring(3);                    
                 }
             }
         }
