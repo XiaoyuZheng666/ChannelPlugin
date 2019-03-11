@@ -11,6 +11,21 @@
 ##Simple Usage
 
 
+安卓：
+在AndroidManifest.xml中添加
+        <meta-data android:name="ZHIKU_CHANNEL" android:value="key${ZHIKU_CHANNEL_VALUE}" />
+
+然后在build.gradle中productFlavors里面（ZHIKU_CHANNEL_VALUE就是你要写的渠道号）：
+ productFlavors {
+   guanfang{manifestPlaceholders = [ZHIKU_CHANNEL_VALUE: "222222"]}
+}
+
+IOS：
+在项目target的info文件里面添加
+key：ZHIKU_CHANNEL
+type：String
+Value：111111（这里根据需求修改渠道号）
+
 cordova.plugins.ChannelPlugin.getChannel(function(msg){    
                        alert(msg);    
                    },function(msg){    
